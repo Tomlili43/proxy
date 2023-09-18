@@ -1,0 +1,18 @@
+name: proxy  # Replace with your desired environment name
+channels:
+  - defaults
+dependencies:
+  - python==3.10  # Replace with your desired Python version
+  - requests==2.31.0
+  - pymongo==3.12.0
+  - loguru==0.5.3
+  - sqlalchemy==1.4.25
+  - selenium==3.141.0
+  # - beautifulsoup4==4.11.1 
+  # - mysql-connector-python==8.0.18  
+  - pip:
+    - browsermob-proxy==0.8.0
+    - webdriver-manager==3.5.1
+    - ddddocr==0.0.9
+
+
